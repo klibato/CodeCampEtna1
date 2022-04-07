@@ -1,0 +1,130 @@
+* .container {
+    display         : flex;
+    flex-direction  : column;
+    height          : 100%;
+    background-color: #2F343D;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    margin-top    : 8%;
+    display       : flex;
+    padding-bottom: 1.5%;
+    height        : auto;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.boxlogin {
+    display         : flex;
+    background-color: #2F343D;
+    justify-content : center;
+    height          : 200px;
+}
+
+.formulairelogin {
+    display         : flex;
+    background-color: white;
+    align-items     : center;
+    width           : 35%;
+    flex-direction  : column;
+}
+
+.formulaire {
+    display       : flex;
+    flex-direction: column;
+    padding       : 10px;
+    margin        : 10px;
+    flex          : 2;
+    width         : 90%;
+}
+
+.username {
+    margin-bottom   : 15px;
+    background-color: transparent;
+    border-radius   : 0;
+    border          : none;
+
+    -webkit-appearance: none;
+    -moz-appearance   : none;
+
+    font-family: inherit;
+    font-size  : inherit;
+
+    box-sizing   : border-box;
+    width        : var(--fieldWidth, 100%);
+    height       : var(--fieldHeight, 3rem);
+    padding      : var(--fieldPaddingTop, 1.25rem) var(--uiFieldPaddingRight) var(--fieldPaddingBottom, .5rem) var(--uiFieldPaddingLeft);
+    border-bottom: var(--uiFieldBorderWidth) solid var(--fieldBorderColor, rgba(0, 0, 0, .25));
+
+
+}
+
+
+.username:focus::-moz-placeholder {
+    color: var(--uiFieldPlaceholderColor);
+}
+
+.username:focus {
+    outline: none;
+}
+
+.username:focus::-moz-placeholder{
+    opacity: 1;
+    transition-delay: .2s;
+  }
+
+  .username:focus::-webkit-input-placeholder{
+    opacity: 1;
+    transition-delay: .2s;
+  }
+
+.password {
+    background-color: transparent;
+    border-radius   : 0;
+    border          : none;
+
+    -webkit-appearance: none;
+    -moz-appearance   : none;
+
+    font-family  : inherit;
+    font-size    : inherit;
+    box-sizing   : border-box;
+    width        : var(--fieldWidth, 100%);
+    height       : var(--fieldHeight, 3rem);
+    padding      : var(--fieldPaddingTop, 1.25rem) var(--uiFieldPaddingRight) var(--fieldPaddingBottom, .5rem) var(--uiFieldPaddingLeft);
+    border-bottom: var(--uiFieldBorderWidth) solid var(--fieldBorderColor, rgba(0, 0, 0, .25));
+
+    
+}
+
+.password:focus::-moz-placeholder {
+    color: var(--uiFieldPlaceholderColor);
+}
+
+.password:focus {
+    outline: none;
+}
+
+
+.button2 {
+    margin-bottom: 10px;
+    text-align   : center;
+    width        : 90%;
+    flex         : 1;
+}
+
+.button2 button {
+    width : 100%;
+    height: 100%;
+    border: none;
+}

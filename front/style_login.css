@@ -1,0 +1,78 @@
+* .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #2F343D;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    margin-top: 8%;
+    display: flex;
+    padding-bottom: 1.5%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.boxlogin {
+    display: flex;
+    background-color: #2F343D;
+    justify-content: center;
+    height: 200px;
+}
+
+.formulairelogin {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    width: 35%;
+    flex-direction: column;
+}
+
+.button1 {
+    margin-top: 10px;
+    text-align: center;
+    width: 90%;
+    flex: 1;
+}
+
+.button1 button {
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+
+.formulaire {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    width: 90%;
+}
+
+.email {
+    margin-bottom: 15px;
+}
+
+.button2 {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 90%;
+    flex: 1;
+}
+
+.button2 button {
+    width: 100%;
+    height: 100%;
+    border:none;
+}

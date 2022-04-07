@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    font-family: Raleway;
+    flex-direction: column;
+    height: 100%;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    padding-bottom: 1.5%;
+    background: #247B9D;
+    color: white;
+    height: auto;
+    font-family: Raleway;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    margin-top:1%;
+}
+
+.boxadmin{
+    color: #247B9D;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.button_admin{
+
+    background-color:#247B9D;
+    border-radius:28px;
+    border:1px solid white;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:15px 63px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px black;
+    margin: 20px;
+    margin-left: 4%;
+}
+.button_admin:hover {
+    background-color:black;
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* no underline */
+  }
